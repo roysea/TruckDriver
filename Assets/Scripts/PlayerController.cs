@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public float speed = 20.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +17,8 @@ public class PlayerController : MonoBehaviour
     {
         // get transform component of the vehicle object
         // use Translate method to change the position
-        //transform.Translate(0, 0, 1) = transform.Translate(Vector3.forward);
+        
         // to slow down the vehicle 20 meter/ second
-        transform.Translate(Vector3.forward * Time.deltaTime * 20);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
