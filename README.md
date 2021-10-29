@@ -1,7 +1,6 @@
 # Truck Driver
 
-## Play TruckDriver
-click [here to play](https://roysea.github.io/TruckDriver/Builds/index.html)
+## Play TruckDriver [click here](https://roysea.github.io/TruckDriver/Builds/index.html)
 
 This is part of my VR lab and is based on [Unity's official tutorial](https://learn.unity.com/tutorial/set-up-your-first-project-in-unity?uv=2020.3&projectId=5caccdfbedbc2a3cef0efe63).
 
